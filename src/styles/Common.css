@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.sidebar {
+    background: #2f3439;
+    color: white;
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .logoHeading {
+    display: flex;
+    /* margin-bottom: 4rem; */
+    padding-top: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 20px !important;
+    height: 5rem;
+    width: 90%;
+    margin-left: 9%;
+}
+.logoHeading h4 {
+    font-size: 2rem !important;
+}
+.first, .second, .third {
+    margin-top: 1.5rem;
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    justify-content: flex-start;
+}
+.second, .third {
+    margin-left: 3rem;
+}
+.common-header{
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 80%;
+    right: 0;
+    height: 4rem;
+}
+.nav-container{
+    margin-top: 4rem;
+}
+.right-div{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    right: 10px;
+    height: 4rem;
+}
+.head-button{
+    margin-right: 4px;
+    width: 50px;
+    /* height: 50px; */
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: .8rem;
+}
+.head-log-out{
+    margin-right: 4px;
+    width: 60px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    text-align: center;
+    padding: 1rem 0;
+}
+.head-user{
+    margin-right: 4px;
+    width: 50px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: .8rem;
+}
+.head-notification{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    width: 50px;
+    padding: .8rem;
+}
+.notification-bar{
+    position: absolute;
+    left: 20%;
+    right: 0;
+    top: 11.35%;
+    bottom: 83.65%;
+    font-style: normal;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: #fef3e7;
+    line-height: 17px;
+    padding: 9px;
+}
