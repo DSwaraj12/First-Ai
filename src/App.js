@@ -12,6 +12,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="App">
+        <div className="main-wrapper">
         <CommonHeader/>
         <SiderBar/>
         <Switch>
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/loginpage" component={LoginPage} />
           <Route path="/billing-details" component={Billingdetails} />
         </Switch>
+        </div>
       </div>
     </BrowserRouter>  
   );

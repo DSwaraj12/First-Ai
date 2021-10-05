@@ -2,6 +2,9 @@
     box-sizing: border-box;
     font-size: 14px;
 }
+.main-wrapper{
+    display: flex;
+}
 .sidebar {
     background: #2f3439;
     color: white;

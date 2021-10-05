@@ -38,7 +38,7 @@ const Dashboard = () => {
   return (
     <section className="home">
       {/* ------------ SIDEBAR------------ */}
-      <div className="sidebar">
+      {/* <div className="sidebar">
         <div className="logoHeading">
           <div className="image">
             <img src={logo} alt="logo" />
@@ -93,13 +93,13 @@ const Dashboard = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* ------------ End of SIDEBAR------------ */}
 
       <div className="main-page">
-        <div className="log-out">
+        {/* <div className="log-out">
           <h3>Log Out</h3>
-        </div>
+        </div> */}
 
         <div className="sub-page">
           <div className="connect-Acc">
