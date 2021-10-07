@@ -4,6 +4,9 @@
 }
 .main-wrapper{
     display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
 }
 .sidebar {
     background: #2f3439;
@@ -37,9 +40,7 @@
     margin-left: 1rem;
     justify-content: flex-start;
 }
-.second, .third {
-    margin-left: 3rem;
-}
+
 .common-header{
     position: absolute;
     top: 0;
@@ -49,7 +50,7 @@
     height: 4rem;
 }
 .nav-container{
-    margin-top: 4rem;
+    margin-top: 0rem;
 }
 .right-div{
     display: flex;
@@ -92,13 +93,43 @@
     position: absolute;
     left: 20%;
     right: 0;
-    top: 11.35%;
-    bottom: 83.65%;
+    top: 10%;
+    bottom: 84.65%;
     font-style: normal;
-    text-align: center;
     font-weight: 500;
     font-size: 12px;
     background-color: #fef3e7;
     line-height: 17px;
-    padding: 9px;
+    padding: 9px 9px 9px 5rem;
 }
+.second-container,
+.third-container,.first-container {
+    margin-left: 2rem;
+    cursor: pointer;
+  }
+  .bg-active {
+    background-color: #6149fb;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  /* .first,
+  .second,
+  .third {
+    margin-top: 1.5rem;
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }   */
+  .sidebar {
+    background: #2f3439;
+    color: white;
+    position: relative;
+  }
+  .main-page {
+    background-color: #fffdfc;
+    position: relative;
+    top: 4em;
+    width: 80vw;
+    min-height: 40rem;
+  }

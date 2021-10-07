@@ -20,13 +20,13 @@ function SiderBar() {
 
         if (val === "first-container") {
             setActiveBg({ first: true, second: false, third: false });
-        } else if (val == "second-container") {
+        } else if (val === "second-container") {
             console.log("second");
             setActiveBg({ first: false, second: true, third: false });
         } else if (val === "third-container") {
             setActiveBg({ first: false, second: false, third: true });
         }
-        console.log("end");
+        console.log("end",activeBg);
     };
     return (
         <div className="sidebar">

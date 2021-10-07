@@ -1,0 +1,52 @@
+.billing-container{
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.billing-container div{
+    padding: 0 2rem;
+}
+.billing-top h2{
+    margin: 1rem auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.billing-middle {
+    margin: 2rem 1rem;
+    min-width: 75vw;
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+  
+  #customers td, #customers th {
+    /* border: 1px solid #ddd; */
+    padding: 8px;
+  }
+  
+  #customers tr.header{
+    border-radius: 15px
+  }
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers thead th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2F3439;
+    color: white;
+    
+  }
